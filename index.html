@@ -12,6 +12,7 @@
 
     <!-- Header  -->
     <header class="header container">
+        <div class="mobil-menu"><img src="./assets/img/icons/menu.png" alt=""></div>
         <div class="header__left">
             <div class="logo">Li.</div>
         </div>
@@ -132,6 +133,13 @@
     </div>
 
 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(".mobil-menu").click(function() {
+            $(".header__right").toggleClass("active")
+        })
+    </script>
     
 </body>
 </html>
